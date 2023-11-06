@@ -10,7 +10,7 @@ export default function Home() {
           <Link
             href={project.url}
             key={project.name}
-            className={`text-md font-medium text-white ${project.color} px-2 py-1 rounded-lg`}
+            className={`text-md bg-sky-400 font-medium text-white ${project.color} px-2 py-1 rounded-lg`}
           >
             {project.name}
           </Link>
